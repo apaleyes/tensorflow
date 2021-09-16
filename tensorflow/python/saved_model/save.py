@@ -1226,7 +1226,7 @@ def save(obj, export_dir, signatures=None, options=None):
   `.signatures` attribute. This is a reserved attribute: `tf.saved_model.save`
   on an object with a custom `.signatures` attribute will raise an exception.
 
-  _Using `tf.saved_model.save` with Keras models_
+  _Using `tf.saved\_model.save` with Keras models_
 
   While Keras has its own [saving and loading API](https://www.tensorflow.org/guide/keras/save_and_serialize),
   this function can be used to export Keras models. For example, exporting with
